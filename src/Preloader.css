@@ -1,0 +1,59 @@
+
+.night-bg {
+  width: 100vh;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+}
+
+.solar-system {
+  width: 400px;
+  height: 400px;
+  display: block;
+  position: relative;
+  z-index: 80;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+
+
+#circle-one {
+  animation: circle-one-anim 1s infinite linear;
+}
+
+#circle-two {
+  animation: circle-two-anim 2.56s infinite linear;
+}
+
+#circle-three {
+  animation: circle-three-anim 4.15s infinite linear;
+}
+
+#circle-four {
+  animation: circle-four-anim 5.05s infinite linear;
+}
+
+@keyframes circle-one-anim {
+    from { transform: rotate(0deg) translateX(-35px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(-35px) rotate(-360deg); }
+}
+
+@keyframes circle-two-anim {
+    from { transform: rotate(0deg) translateX(-55px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(-55px) rotate(-360deg); }
+}
+
+@keyframes circle-three-anim {
+    from { transform: rotate(0deg) translateX(-75px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(-75px) rotate(-360deg); }
+}
+
+@keyframes circle-four-anim {
+    from { transform: rotate(0deg) translateX(-95px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(-95px) rotate(-360deg); }
+}

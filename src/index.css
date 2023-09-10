@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&display=swap');
+
+@layer base {
+body {
+  background: #000000;
+  color: #ffffff;
+  font-family: 'Barlow', sans-serif;
+}
+li{
+  @apply px-4;
+  @apply cursor-pointer;
+}
+}
+.content-div{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover{
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 161, 150),
+    hsla(180, 88%, 23%, 0.8)
+  )!important;
+
+}
+
+.background-video{
+  /* agregamos la url del video */
+}
