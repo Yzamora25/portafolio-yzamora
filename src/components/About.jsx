@@ -3,7 +3,7 @@ import Sobre from '../img/SOBRE MI.png';
 
 function About() {
   return (
-    <div name='about' className='w-full h-screen bg-[#000000] text-gray-300'>
+    <div name='about' className='p-5 w-full h-screen bg-[#000000] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-1 md:grid-cols-2 gap-8'>
 
@@ -16,6 +16,7 @@ function About() {
               Soy una profesional apasionada por el desarrollo de soluciones creativas para empresas. Con 2 años de experiencia en liderazgo de proyectos de <span className='text-[#50C6B3] font-bold'>Tecnologías de la Información</span> y 1 año brindando <span className='text-[#50C6B3] font-bold'>soporte técnico</span> de primer y segundo nivel, he adquirido un profundo conocimiento en la optimización de procesos y la mejora de la experiencia del cliente. Estoy constantemente actualizándome en nuevas tecnologías para seguir mejorando mis habilidades técnicas y mantenerme al tanto de las últimas tendencias en el campo.
             </p>
           </div>
+          <div className='Astronauta'></div>
         </div>
       </div>
     </div>

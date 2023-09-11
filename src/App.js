@@ -18,11 +18,12 @@ const App = () => {
 
   return (
     <div>
-      <Navbar />
+      
 
       {/* sections*/}
       {loading ? <Preloader /> : (
         <div>
+          <Navbar />
           <Home />
           <About />
           <Skills />

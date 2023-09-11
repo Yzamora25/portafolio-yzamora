@@ -28,7 +28,8 @@ function Skills() {
               Estas son las tecnologías con las que he trabajado
             </p>
           </div>
-          <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+          <div className='w-full grid grid-cols-3 sm:grid-cols-6 gap-4 text-center py-8'>
+
             {/* html */}
             <div className='shadow-md shadow-[#292929] hover:scale-110 duration-500'>
               <img src={HTML} alt="HTML" className='w-20 h-20 mx-auto' />

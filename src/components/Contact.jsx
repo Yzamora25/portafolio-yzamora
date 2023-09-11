@@ -1,30 +1,22 @@
 import React from 'react';
 import Contacto from '../img/CONTACTAME.png';
-import videoBackground from '../video/background.mp4'; 
+import Background from '../img/background.jpg'; 
 
 
 function Contact() {
   return (
-    <div name='contact' className='w-full h-screen  relative'>
-      {/* <video
-        src={videoBackground}
-        autoPlay
-        loop
-        muted
-        
-      /> */}
+    <div name='contact' className='img-background w-full h-screen  relative'>
+      
       
       <style>
         {`
-          video {
-            
-            object-fit: cover;
-            width: 100%;
-            height: 120%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
+          .img-background {
+            whidth: 100%;
+            height: 120vh;
+            background-image: url(${Background});
+            background-position: center;
+            background-repeat: no-repeat;
+          
           }
 
           input{
@@ -85,6 +77,7 @@ function Contact() {
         </div>
       </form>
     </div>
+    
     </div>
     
   );

@@ -31,6 +31,16 @@ li{
 
 }
 
-.background-video{
-  /* agregamos la url del video */
+/* quiero un css en el cual se agregue una imagen flotando este es un astronauta */
+.astronauta{
+  background-image: url("https://i.ibb.co/0jZ3qYH/astronauta.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
 }
